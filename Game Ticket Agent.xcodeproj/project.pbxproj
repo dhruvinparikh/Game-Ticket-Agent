@@ -12,6 +12,17 @@
 		917985972090AD6A00C76474 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917985952090AD6A00C76474 /* Main.storyboard */; };
 		917985992090AD6A00C76474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917985982090AD6A00C76474 /* Assets.xcassets */; };
 		9179859C2090AD6A00C76474 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9179859A2090AD6A00C76474 /* LaunchScreen.storyboard */; };
+		917985A42090B0AF00C76474 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917985A32090B0AF00C76474 /* SearchViewController.swift */; };
+		917985BB2090B4F300C76474 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917985BA2090B4F300C76474 /* TeamViewController.swift */; };
+		917985BD2090B53D00C76474 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917985BC2090B53D00C76474 /* Team.swift */; };
+		917985BF2090B66A00C76474 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917985BE2090B66A00C76474 /* TeamTableViewCell.swift */; };
+		917985C52090BA6B00C76474 /* jays.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 917985C02090BA6A00C76474 /* jays.jpg */; };
+		917985C62090BA6B00C76474 /* marlies.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 917985C12090BA6A00C76474 /* marlies.jpeg */; };
+		917985C72090BA6B00C76474 /* raptors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 917985C22090BA6A00C76474 /* raptors.jpg */; };
+		917985C82090BA6B00C76474 /* fc.png in Resources */ = {isa = PBXBuildFile; fileRef = 917985C32090BA6A00C76474 /* fc.png */; };
+		917985C92090BA6B00C76474 /* leafs.png in Resources */ = {isa = PBXBuildFile; fileRef = 917985C42090BA6B00C76474 /* leafs.png */; };
+		917985CD2090BC0C00C76474 /* GamDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917985CC2090BC0C00C76474 /* GamDetailViewController.swift */; };
+		917985CF2090BDE300C76474 /* mlse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 917985CE2090BDE300C76474 /* mlse.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		917985982090AD6A00C76474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9179859B2090AD6A00C76474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9179859D2090AD6A00C76474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		917985A32090B0AF00C76474 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		917985BA2090B4F300C76474 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		917985BC2090B53D00C76474 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		917985BE2090B66A00C76474 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		917985C02090BA6A00C76474 /* jays.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jays.jpg; path = "Images 2/jays.jpg"; sourceTree = SOURCE_ROOT; };
+		917985C12090BA6A00C76474 /* marlies.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = marlies.jpeg; path = "Images 2/marlies.jpeg"; sourceTree = SOURCE_ROOT; };
+		917985C22090BA6A00C76474 /* raptors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = raptors.jpg; path = "Images 2/raptors.jpg"; sourceTree = SOURCE_ROOT; };
+		917985C32090BA6A00C76474 /* fc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fc.png; path = "Images 2/fc.png"; sourceTree = SOURCE_ROOT; };
+		917985C42090BA6B00C76474 /* leafs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leafs.png; path = "Images 2/leafs.png"; sourceTree = SOURCE_ROOT; };
+		917985CC2090BC0C00C76474 /* GamDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamDetailViewController.swift; sourceTree = "<group>"; };
+		917985CE2090BDE300C76474 /* mlse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mlse.jpg; path = "Images 2/mlse.jpg"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +79,20 @@
 				917985912090AD6A00C76474 /* AppDelegate.swift */,
 				917985932090AD6A00C76474 /* ViewController.swift */,
 				917985952090AD6A00C76474 /* Main.storyboard */,
+				917985C32090BA6A00C76474 /* fc.png */,
+				917985C02090BA6A00C76474 /* jays.jpg */,
+				917985C42090BA6B00C76474 /* leafs.png */,
+				917985C12090BA6A00C76474 /* marlies.jpeg */,
+				917985CE2090BDE300C76474 /* mlse.jpg */,
+				917985C22090BA6A00C76474 /* raptors.jpg */,
+				917985A32090B0AF00C76474 /* SearchViewController.swift */,
 				917985982090AD6A00C76474 /* Assets.xcassets */,
 				9179859A2090AD6A00C76474 /* LaunchScreen.storyboard */,
 				9179859D2090AD6A00C76474 /* Info.plist */,
+				917985BA2090B4F300C76474 /* TeamViewController.swift */,
+				917985BC2090B53D00C76474 /* Team.swift */,
+				917985BE2090B66A00C76474 /* TeamTableViewCell.swift */,
+				917985CC2090BC0C00C76474 /* GamDetailViewController.swift */,
 			);
 			path = "Game Ticket Agent";
 			sourceTree = "<group>";
@@ -124,8 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9179859C2090AD6A00C76474 /* LaunchScreen.storyboard in Resources */,
+				917985C52090BA6B00C76474 /* jays.jpg in Resources */,
+				917985C92090BA6B00C76474 /* leafs.png in Resources */,
+				917985C82090BA6B00C76474 /* fc.png in Resources */,
+				917985CF2090BDE300C76474 /* mlse.jpg in Resources */,
+				917985C72090BA6B00C76474 /* raptors.jpg in Resources */,
 				917985992090AD6A00C76474 /* Assets.xcassets in Resources */,
 				917985972090AD6A00C76474 /* Main.storyboard in Resources */,
+				917985C62090BA6B00C76474 /* marlies.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				917985A42090B0AF00C76474 /* SearchViewController.swift in Sources */,
+				917985BB2090B4F300C76474 /* TeamViewController.swift in Sources */,
 				917985942090AD6A00C76474 /* ViewController.swift in Sources */,
+				917985BD2090B53D00C76474 /* Team.swift in Sources */,
+				917985BF2090B66A00C76474 /* TeamTableViewCell.swift in Sources */,
 				917985922090AD6A00C76474 /* AppDelegate.swift in Sources */,
+				917985CD2090BC0C00C76474 /* GamDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
