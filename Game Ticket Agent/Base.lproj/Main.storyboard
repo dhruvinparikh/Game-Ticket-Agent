@@ -54,6 +54,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yT3-Hh-zZm">
+                                <rect key="frame" x="16" y="303" width="283" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpW-He-HtB">
                                 <rect key="frame" x="16" y="343" width="288" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -64,7 +71,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="CPR-Xp-uh2" kind="show" id="L6P-Lj-bRk"/>
+                                    <action selector="onLoginBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q5I-au-FZ7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -72,6 +79,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Gle-FG-QnX"/>
+                    <connections>
+                        <outlet property="lblError" destination="yT3-Hh-zZm" id="7f0-MG-m8I"/>
+                        <outlet property="tfPassword" destination="sCa-fP-xA1" id="SpK-CU-eC7"/>
+                        <outlet property="tfUsername" destination="Tgu-0s-VzK" id="9yN-tR-wkh"/>
+                        <segue destination="CPR-Xp-uh2" kind="show" identifier="toGameTicket" id="aRT-yt-uhm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
