@@ -11,10 +11,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Game Ticket Agent-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Game_Ticket_Agent" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Game Ticket Agent" id="BYZ-38-t0r" customClass="ViewController" customModule="Game_Ticket_Agent" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,8 +33,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhz-h2-zWl">
+                                <rect key="frame" x="16" y="470" width="288" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Sign-in">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mlse.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3Dm-pz-HVs">
+                                <rect key="frame" x="13" y="20" width="288" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Game Ticket Agent" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bs-ka-6Gv">
+                                <rect key="frame" x="16" y="141" width="283" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpW-He-HtB">
-                                <rect key="frame" x="16" y="316" width="288" height="51"/>
+                                <rect key="frame" x="16" y="343" width="288" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -46,20 +67,6 @@
                                     <segue destination="CPR-Xp-uh2" kind="show" id="L6P-Lj-bRk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhz-h2-zWl">
-                                <rect key="frame" x="16" y="421" width="288" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" title="Sign-in">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mlse.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3Dm-pz-HVs">
-                                <rect key="frame" x="16" y="48" width="288" height="99"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -70,10 +77,10 @@
             </objects>
             <point key="canvasLocation" x="513.75" y="117.25352112676056"/>
         </scene>
-        <!--View Controller-->
+        <!--Game Ticket Agent-->
         <scene sceneID="8Ip-Du-hKI">
             <objects>
-                <viewController id="fcH-by-edx" sceneMemberID="viewController">
+                <viewController title="Game Ticket Agent" id="fcH-by-edx" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mb0-PX-QaL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,6 +111,13 @@
                                     <segue destination="bNp-lw-TdQ" kind="show" id="H2N-vf-2OA"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Game Ticket Agent" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8BG-Kk-Z7M">
+                                <rect key="frame" x="16" y="108" width="288" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="c9b-s5-GXh"/>
@@ -152,45 +166,48 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseCell" rowHeight="128" id="4DO-LB-5nl" customClass="TeamTableViewCell" customModule="Game_Ticket_Agent" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="128"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseCell" rowHeight="91" id="4DO-LB-5nl" customClass="TeamTableViewCell" customModule="Game_Ticket_Agent" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="91"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4DO-LB-5nl" id="zny-qF-7jf">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="127.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="90.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="G8q-3A-Gr8">
-                                                    <rect key="frame" x="15" y="11" width="111" height="105"/>
+                                                    <rect key="frame" x="15" y="11" width="70" height="62"/>
                                                 </imageView>
-                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Team Name" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R9W-sa-b79">
-                                                    <rect key="frame" x="134" y="22" width="171" height="30"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLe-N6-qe9">
+                                                    <rect key="frame" x="93" y="11" width="212" height="29"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
-                                                </textField>
-                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="Tickets remaining" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KO8-SU-b2v">
-                                                    <rect key="frame" x="134" y="73" width="171" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tickets Remaining - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbm-9i-68m">
+                                                    <rect key="frame" x="93" y="48" width="212" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                                    <textInputTraits key="textInputTraits"/>
-                                                </textField>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="R9W-sa-b79" firstAttribute="trailing" secondItem="zny-qF-7jf" secondAttribute="trailingMargin" id="28R-4N-qaA"/>
-                                                <constraint firstItem="G8q-3A-Gr8" firstAttribute="top" secondItem="zny-qF-7jf" secondAttribute="topMargin" id="Cxe-CK-Gj3"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="G8q-3A-Gr8" secondAttribute="bottom" constant="1" id="EPS-E1-dId"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="R9W-sa-b79" secondAttribute="bottom" constant="65" id="Ng3-1q-PQg"/>
-                                                <constraint firstItem="G8q-3A-Gr8" firstAttribute="leading" secondItem="zny-qF-7jf" secondAttribute="leadingMargin" id="OXN-AV-U78"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="G8q-3A-Gr8" secondAttribute="trailing" constant="179" id="TZa-3i-sHf"/>
-                                                <constraint firstItem="R9W-sa-b79" firstAttribute="top" secondItem="zny-qF-7jf" secondAttribute="topMargin" constant="11" id="Y6B-Pi-Vvt"/>
-                                                <constraint firstItem="R9W-sa-b79" firstAttribute="leading" secondItem="G8q-3A-Gr8" secondAttribute="trailing" constant="8" id="YZB-3u-f8B"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="G8q-3A-Gr8" secondAttribute="bottom" constant="7" id="65Z-EG-q9h"/>
+                                                <constraint firstItem="dbm-9i-68m" firstAttribute="trailing" secondItem="zny-qF-7jf" secondAttribute="trailingMargin" id="6GV-Yp-mtc"/>
+                                                <constraint firstItem="hLe-N6-qe9" firstAttribute="trailing" secondItem="zny-qF-7jf" secondAttribute="trailingMargin" id="8B6-pg-VoF"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="hLe-N6-qe9" secondAttribute="bottom" constant="40" id="J5H-s3-L4a"/>
+                                                <constraint firstItem="hLe-N6-qe9" firstAttribute="top" secondItem="zny-qF-7jf" secondAttribute="topMargin" id="QB6-5n-wMQ"/>
+                                                <constraint firstItem="G8q-3A-Gr8" firstAttribute="leading" secondItem="zny-qF-7jf" secondAttribute="leadingMargin" id="UXc-V3-2xZ"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="dbm-9i-68m" secondAttribute="bottom" constant="11" id="cHt-aH-LJX"/>
+                                                <constraint firstItem="dbm-9i-68m" firstAttribute="leading" secondItem="G8q-3A-Gr8" secondAttribute="trailing" constant="8" id="eIh-5d-9Hz"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="G8q-3A-Gr8" secondAttribute="trailing" constant="220" id="frv-Zk-qWT"/>
+                                                <constraint firstItem="dbm-9i-68m" firstAttribute="top" secondItem="hLe-N6-qe9" secondAttribute="bottom" constant="8" id="mog-MD-pC1"/>
+                                                <constraint firstItem="hLe-N6-qe9" firstAttribute="leading" secondItem="G8q-3A-Gr8" secondAttribute="trailing" constant="8" id="twN-0V-GGj"/>
+                                                <constraint firstItem="G8q-3A-Gr8" firstAttribute="top" secondItem="zny-qF-7jf" secondAttribute="topMargin" id="w1F-Qw-YU8"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="teamLogo" destination="G8q-3A-Gr8" id="FON-Qj-VQO"/>
-                                            <outlet property="teamName" destination="R9W-sa-b79" id="YO8-5F-CLo"/>
-                                            <outlet property="tickets" destination="KO8-SU-b2v" id="LcB-8g-l0O"/>
+                                            <outlet property="teamName" destination="hLe-N6-qe9" id="kkv-Lz-QAa"/>
+                                            <outlet property="tickets" destination="dbm-9i-68m" id="8bg-87-azQ"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
